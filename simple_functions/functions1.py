@@ -1,7 +1,7 @@
 
 from functools import cache
 
-__all__ = ['my_sum']
+__all__ = ['my_sum', 'factorial']
 
 
 def my_sum(iterable):
