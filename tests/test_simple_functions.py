@@ -1,8 +1,6 @@
 import pytest
-
 from simple_functions import my_sum
 from simple_functions import factorial
-
 
 class TestSimpleFunctions(object):
     '''Class to test our simple functions are working correctly'''
@@ -15,8 +13,6 @@ class TestSimpleFunctions(object):
         '''Test our add function'''
         isum = my_sum(iterable)
         assert isum == expected
-
-
 
     @pytest.mark.parametrize('number, expected', [
         (5, 120),
